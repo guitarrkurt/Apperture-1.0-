@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046284421979EA510037BA53 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046284411979EA510037BA53 /* MessageUI.framework */; };
+		04E812E5198382E500431F7B /* untitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E812E4198382E500431F7B /* untitle.png */; };
+		DE46ED8D1965B1DB00B3D9EA /* iconoApperture.png in Resources */ = {isa = PBXBuildFile; fileRef = DE46ED8C1965B1DB00B3D9EA /* iconoApperture.png */; };
+		DE46ED8F1965B2B800B3D9EA /* iconoApperture58.png in Resources */ = {isa = PBXBuildFile; fileRef = DE46ED8E1965B2B800B3D9EA /* iconoApperture58.png */; };
+		DE6158601965D4F8001F82E1 /* iconoApperture80.png in Resources */ = {isa = PBXBuildFile; fileRef = DE61585E1965D4F8001F82E1 /* iconoApperture80.png */; };
+		DE6158611965D4F8001F82E1 /* iconoApperture120.png in Resources */ = {isa = PBXBuildFile; fileRef = DE61585F1965D4F8001F82E1 /* iconoApperture120.png */; };
+		DE6158631965D6E5001F82E1 /* launchimage640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6158621965D6E5001F82E1 /* launchimage640x960.png */; };
+		DE6158651965D73E001F82E1 /* launchimage640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6158641965D73E001F82E1 /* launchimage640x1136.png */; };
+		DE6158691965D831001F82E1 /* iconoApperture57.png in Resources */ = {isa = PBXBuildFile; fileRef = DE6158681965D831001F82E1 /* iconoApperture57.png */; };
+		DE61586B1965D8A2001F82E1 /* iconoApperture29.png in Resources */ = {isa = PBXBuildFile; fileRef = DE61586A1965D8A2001F82E1 /* iconoApperture29.png */; };
+		DE61586D1965D951001F82E1 /* iconoApperture114.png in Resources */ = {isa = PBXBuildFile; fileRef = DE61586C1965D951001F82E1 /* iconoApperture114.png */; };
+		DE8BCF6E196494060064C6E2 /* BG iphone 4inch_C.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8BCF64196494060064C6E2 /* BG iphone 4inch_C.png */; };
+		DE8BCF6F196494060064C6E2 /* BG iphone 4inch_E.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8BCF65196494060064C6E2 /* BG iphone 4inch_E.png */; };
+		DE8BCF70196494060064C6E2 /* BG iphone 4inch_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8BCF66196494060064C6E2 /* BG iphone 4inch_logo.png */; };
+		DE8BCF731964962E0064C6E2 /* BG iphone 4inch_D.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8BCF711964962E0064C6E2 /* BG iphone 4inch_D.png */; };
+		DEA174A9196738F000793AD6 /* BG iphone 4inchslogan copy.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA174A8196738F000793AD6 /* BG iphone 4inchslogan copy.png */; };
+		DEA174AB19673A5A00793AD6 /* listonIphone4inch.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA174AA19673A5A00793AD6 /* listonIphone4inch.png */; };
+		DEA575A41965A31B0097A5F0 /* BG iphone 4inch_G.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA575A31965A31B0097A5F0 /* BG iphone 4inch_G.png */; };
+		DEA8472319644A9E003659A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA8472219644A9E003659A8 /* Foundation.framework */; };
+		DEA8472519644A9E003659A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA8472419644A9E003659A8 /* CoreGraphics.framework */; };
+		DEA8472719644A9E003659A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA8472619644A9E003659A8 /* UIKit.framework */; };
+		DEA8472D19644A9E003659A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEA8472B19644A9E003659A8 /* InfoPlist.strings */; };
+		DEA8472F19644A9E003659A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA8472E19644A9E003659A8 /* main.m */; };
+		DEA8473319644A9E003659A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA8473219644A9E003659A8 /* AppDelegate.m */; };
+		DEA8473619644A9E003659A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA8473419644A9E003659A8 /* Main.storyboard */; };
+		DEA8473919644A9E003659A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA8473819644A9E003659A8 /* ViewController.m */; };
+		DEA8473B19644A9E003659A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA8473A19644A9E003659A8 /* Images.xcassets */; };
+		DEA8474219644A9E003659A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA8474119644A9E003659A8 /* XCTest.framework */; };
+		DEA8474319644A9E003659A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA8472219644A9E003659A8 /* Foundation.framework */; };
+		DEA8474419644A9E003659A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA8472619644A9E003659A8 /* UIKit.framework */; };
+		DEA8474C19644A9E003659A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEA8474A19644A9E003659A8 /* InfoPlist.strings */; };
+		DEA8474E19644A9E003659A8 /* interfaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA8474D19644A9E003659A8 /* interfaceTests.m */; };
+		DEB3B0F019673DB600581257 /* BG iphone 4inch_F.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB3B0EF19673DB600581257 /* BG iphone 4inch_F.png */; };
+		DEC65F06196603CB00F4A258 /* BG iphone 4inchslogan.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC65F05196603CB00F4A258 /* BG iphone 4inchslogan.png */; };
+		DED2EBD219674F1500D9440D /* BG iphone 4inch_I.png in Resources */ = {isa = PBXBuildFile; fileRef = DED2EBD119674F1500D9440D /* BG iphone 4inch_I.png */; };
+		DED2EBD41967526200D9440D /* BG iphone 4inchCLIENTES-clientes.png in Resources */ = {isa = PBXBuildFile; fileRef = DED2EBD31967526200D9440D /* BG iphone 4inchCLIENTES-clientes.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEA8474519644A9E003659A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA8471719644A9E003659A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA8471E19644A9E003659A8;
+			remoteInfo = interface;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046284411979EA510037BA53 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		04E812E4198382E500431F7B /* untitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = untitle.png; sourceTree = "<group>"; };
+		DE46ED8C1965B1DB00B3D9EA /* iconoApperture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconoApperture.png; sourceTree = "<group>"; };
+		DE46ED8E1965B2B800B3D9EA /* iconoApperture58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconoApperture58.png; sourceTree = "<group>"; };
+		DE61585E1965D4F8001F82E1 /* iconoApperture80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconoApperture80.png; sourceTree = "<group>"; };
+		DE61585F1965D4F8001F82E1 /* iconoApperture120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconoApperture120.png; sourceTree = "<group>"; };
+		DE6158621965D6E5001F82E1 /* launchimage640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage640x960.png; sourceTree = "<group>"; };
+		DE6158641965D73E001F82E1 /* launchimage640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage640x1136.png; sourceTree = "<group>"; };
+		DE6158681965D831001F82E1 /* iconoApperture57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconoApperture57.png; sourceTree = "<group>"; };
+		DE61586A1965D8A2001F82E1 /* iconoApperture29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconoApperture29.png; sourceTree = "<group>"; };
+		DE61586C1965D951001F82E1 /* iconoApperture114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconoApperture114.png; sourceTree = "<group>"; };
+		DE8BCF64196494060064C6E2 /* BG iphone 4inch_C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG iphone 4inch_C.png"; sourceTree = "<group>"; };
+		DE8BCF65196494060064C6E2 /* BG iphone 4inch_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG iphone 4inch_E.png"; sourceTree = "<group>"; };
+		DE8BCF66196494060064C6E2 /* BG iphone 4inch_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG iphone 4inch_logo.png"; sourceTree = "<group>"; };
+		DE8BCF711964962E0064C6E2 /* BG iphone 4inch_D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG iphone 4inch_D.png"; sourceTree = "<group>"; };
+		DEA174A8196738F000793AD6 /* BG iphone 4inchslogan copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG iphone 4inchslogan copy.png"; sourceTree = "<group>"; };
+		DEA174AA19673A5A00793AD6 /* listonIphone4inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listonIphone4inch.png; sourceTree = "<group>"; };
+		DEA575A31965A31B0097A5F0 /* BG iphone 4inch_G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG iphone 4inch_G.png"; sourceTree = "<group>"; };
+		DEA8471F19644A9E003659A8 /* apperture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apperture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA8472219644A9E003659A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEA8472419644A9E003659A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEA8472619644A9E003659A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DEA8472A19644A9E003659A8 /* apperture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "apperture-Info.plist"; sourceTree = "<group>"; };
+		DEA8472C19644A9E003659A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEA8472E19644A9E003659A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEA8473019644A9E003659A8 /* apperture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "apperture-Prefix.pch"; sourceTree = "<group>"; };
+		DEA8473119644A9E003659A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEA8473219644A9E003659A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEA8473519644A9E003659A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA8473719644A9E003659A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEA8473819644A9E003659A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEA8473A19644A9E003659A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEA8474019644A9E003659A8 /* appertureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appertureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA8474119644A9E003659A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DEA8474919644A9E003659A8 /* appertureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "appertureTests-Info.plist"; sourceTree = "<group>"; };
+		DEA8474B19644A9E003659A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEA8474D19644A9E003659A8 /* interfaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = interfaceTests.m; sourceTree = "<group>"; };
+		DEB3B0EF19673DB600581257 /* BG iphone 4inch_F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG iphone 4inch_F.png"; sourceTree = "<group>"; };
+		DEC65F05196603CB00F4A258 /* BG iphone 4inchslogan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG iphone 4inchslogan.png"; sourceTree = "<group>"; };
+		DED2EBD119674F1500D9440D /* BG iphone 4inch_I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG iphone 4inch_I.png"; sourceTree = "<group>"; };
+		DED2EBD31967526200D9440D /* BG iphone 4inchCLIENTES-clientes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG iphone 4inchCLIENTES-clientes.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA8471C19644A9E003659A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046284421979EA510037BA53 /* MessageUI.framework in Frameworks */,
+				DEA8472519644A9E003659A8 /* CoreGraphics.framework in Frameworks */,
+				DEA8472719644A9E003659A8 /* UIKit.framework in Frameworks */,
+				DEA8472319644A9E003659A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA8473D19644A9E003659A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA8474219644A9E003659A8 /* XCTest.framework in Frameworks */,
+				DEA8474419644A9E003659A8 /* UIKit.framework in Frameworks */,
+				DEA8474319644A9E003659A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045FA59A197A17EA002F5252 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		DE8BCF5C196494060064C6E2 /* BG iphone 4inch */ = {
+			isa = PBXGroup;
+			children = (
+				DE8BCF64196494060064C6E2 /* BG iphone 4inch_C.png */,
+				DE8BCF65196494060064C6E2 /* BG iphone 4inch_E.png */,
+				DE8BCF66196494060064C6E2 /* BG iphone 4inch_logo.png */,
+				DE8BCF711964962E0064C6E2 /* BG iphone 4inch_D.png */,
+				DEA575A31965A31B0097A5F0 /* BG iphone 4inch_G.png */,
+				DE46ED8C1965B1DB00B3D9EA /* iconoApperture.png */,
+				DE46ED8E1965B2B800B3D9EA /* iconoApperture58.png */,
+				DE61585E1965D4F8001F82E1 /* iconoApperture80.png */,
+				DE61585F1965D4F8001F82E1 /* iconoApperture120.png */,
+				DE6158621965D6E5001F82E1 /* launchimage640x960.png */,
+				DE6158641965D73E001F82E1 /* launchimage640x1136.png */,
+				DE6158681965D831001F82E1 /* iconoApperture57.png */,
+				DE61586A1965D8A2001F82E1 /* iconoApperture29.png */,
+				DE61586C1965D951001F82E1 /* iconoApperture114.png */,
+				DEC65F05196603CB00F4A258 /* BG iphone 4inchslogan.png */,
+				DEA174A8196738F000793AD6 /* BG iphone 4inchslogan copy.png */,
+				DEA174AA19673A5A00793AD6 /* listonIphone4inch.png */,
+				DEB3B0EF19673DB600581257 /* BG iphone 4inch_F.png */,
+				DED2EBD119674F1500D9440D /* BG iphone 4inch_I.png */,
+				DED2EBD31967526200D9440D /* BG iphone 4inchCLIENTES-clientes.png */,
+			);
+			path = "BG iphone 4inch";
+			sourceTree = "<group>";
+		};
+		DEA8471619644A9E003659A8 = {
+			isa = PBXGroup;
+			children = (
+				045FA59A197A17EA002F5252 /* iPad */,
+				DEA8472819644A9E003659A8 /* interface */,
+				DEA8474719644A9E003659A8 /* interfaceTests */,
+				DEA8472119644A9E003659A8 /* Frameworks */,
+				DEA8472019644A9E003659A8 /* Products */,
+				DE8BCF5C196494060064C6E2 /* BG iphone 4inch */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA8472019644A9E003659A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA8471F19644A9E003659A8 /* apperture.app */,
+				DEA8474019644A9E003659A8 /* appertureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA8472119644A9E003659A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046284411979EA510037BA53 /* MessageUI.framework */,
+				DEA8472219644A9E003659A8 /* Foundation.framework */,
+				DEA8472419644A9E003659A8 /* CoreGraphics.framework */,
+				DEA8472619644A9E003659A8 /* UIKit.framework */,
+				DEA8474119644A9E003659A8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEA8472819644A9E003659A8 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				DEA8473119644A9E003659A8 /* AppDelegate.h */,
+				DEA8473219644A9E003659A8 /* AppDelegate.m */,
+				DEA8473419644A9E003659A8 /* Main.storyboard */,
+				DEA8473719644A9E003659A8 /* ViewController.h */,
+				DEA8473819644A9E003659A8 /* ViewController.m */,
+				04E812E4198382E500431F7B /* untitle.png */,
+				DEA8473A19644A9E003659A8 /* Images.xcassets */,
+				DEA8472919644A9E003659A8 /* Supporting Files */,
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		DEA8472919644A9E003659A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA8472A19644A9E003659A8 /* apperture-Info.plist */,
+				DEA8472B19644A9E003659A8 /* InfoPlist.strings */,
+				DEA8472E19644A9E003659A8 /* main.m */,
+				DEA8473019644A9E003659A8 /* apperture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEA8474719644A9E003659A8 /* interfaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA8474D19644A9E003659A8 /* interfaceTests.m */,
+				DEA8474819644A9E003659A8 /* Supporting Files */,
+			);
+			path = interfaceTests;
+			sourceTree = "<group>";
+		};
+		DEA8474819644A9E003659A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA8474919644A9E003659A8 /* appertureTests-Info.plist */,
+				DEA8474A19644A9E003659A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA8471E19644A9E003659A8 /* apperture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA8475119644A9E003659A8 /* Build configuration list for PBXNativeTarget "apperture" */;
+			buildPhases = (
+				DEA8471B19644A9E003659A8 /* Sources */,
+				DEA8471C19644A9E003659A8 /* Frameworks */,
+				DEA8471D19644A9E003659A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = apperture;
+			productName = interface;
+			productReference = DEA8471F19644A9E003659A8 /* apperture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA8473F19644A9E003659A8 /* appertureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA8475419644A9E003659A8 /* Build configuration list for PBXNativeTarget "appertureTests" */;
+			buildPhases = (
+				DEA8473C19644A9E003659A8 /* Sources */,
+				DEA8473D19644A9E003659A8 /* Frameworks */,
+				DEA8473E19644A9E003659A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA8474619644A9E003659A8 /* PBXTargetDependency */,
+			);
+			name = appertureTests;
+			productName = interfaceTests;
+			productReference = DEA8474019644A9E003659A8 /* appertureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA8471719644A9E003659A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = apperture;
+				TargetAttributes = {
+					DEA8471E19644A9E003659A8 = {
+						DevelopmentTeam = 3FGX5L5C38;
+					};
+					DEA8473F19644A9E003659A8 = {
+						TestTargetID = DEA8471E19644A9E003659A8;
+					};
+				};
+			};
+			buildConfigurationList = DEA8471A19644A9E003659A8 /* Build configuration list for PBXProject "apperture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA8471619644A9E003659A8;
+			productRefGroup = DEA8472019644A9E003659A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA8471E19644A9E003659A8 /* apperture */,
+				DEA8473F19644A9E003659A8 /* appertureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA8471D19644A9E003659A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA575A41965A31B0097A5F0 /* BG iphone 4inch_G.png in Resources */,
+				DE6158651965D73E001F82E1 /* launchimage640x1136.png in Resources */,
+				DE6158601965D4F8001F82E1 /* iconoApperture80.png in Resources */,
+				04E812E5198382E500431F7B /* untitle.png in Resources */,
+				DEB3B0F019673DB600581257 /* BG iphone 4inch_F.png in Resources */,
+				DE61586B1965D8A2001F82E1 /* iconoApperture29.png in Resources */,
+				DE46ED8F1965B2B800B3D9EA /* iconoApperture58.png in Resources */,
+				DE6158631965D6E5001F82E1 /* launchimage640x960.png in Resources */,
+				DEA8473B19644A9E003659A8 /* Images.xcassets in Resources */,
+				DEC65F06196603CB00F4A258 /* BG iphone 4inchslogan.png in Resources */,
+				DE6158691965D831001F82E1 /* iconoApperture57.png in Resources */,
+				DE6158611965D4F8001F82E1 /* iconoApperture120.png in Resources */,
+				DEA8472D19644A9E003659A8 /* InfoPlist.strings in Resources */,
+				DE8BCF6F196494060064C6E2 /* BG iphone 4inch_E.png in Resources */,
+				DEA8473619644A9E003659A8 /* Main.storyboard in Resources */,
+				DE8BCF6E196494060064C6E2 /* BG iphone 4inch_C.png in Resources */,
+				DE46ED8D1965B1DB00B3D9EA /* iconoApperture.png in Resources */,
+				DE8BCF731964962E0064C6E2 /* BG iphone 4inch_D.png in Resources */,
+				DE8BCF70196494060064C6E2 /* BG iphone 4inch_logo.png in Resources */,
+				DEA174A9196738F000793AD6 /* BG iphone 4inchslogan copy.png in Resources */,
+				DE61586D1965D951001F82E1 /* iconoApperture114.png in Resources */,
+				DED2EBD41967526200D9440D /* BG iphone 4inchCLIENTES-clientes.png in Resources */,
+				DED2EBD219674F1500D9440D /* BG iphone 4inch_I.png in Resources */,
+				DEA174AB19673A5A00793AD6 /* listonIphone4inch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA8473E19644A9E003659A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA8474C19644A9E003659A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA8471B19644A9E003659A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA8473919644A9E003659A8 /* ViewController.m in Sources */,
+				DEA8473319644A9E003659A8 /* AppDelegate.m in Sources */,
+				DEA8472F19644A9E003659A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA8473C19644A9E003659A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA8474E19644A9E003659A8 /* interfaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEA8474619644A9E003659A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA8471E19644A9E003659A8 /* apperture */;
+			targetProxy = DEA8474519644A9E003659A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEA8472B19644A9E003659A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA8472C19644A9E003659A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEA8473419644A9E003659A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA8473519644A9E003659A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA8474A19644A9E003659A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA8474B19644A9E003659A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA8474F19644A9E003659A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEA8475019644A9E003659A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA8475219644A9E003659A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "interface/apperture-Prefix.pch";
+				INFOPLIST_FILE = "interface/apperture-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = apperture;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEA8475319644A9E003659A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "interface/apperture-Prefix.pch";
+				INFOPLIST_FILE = "interface/apperture-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = apperture;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DEA8475519644A9E003659A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/interface.app/interface";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "interface/interface-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "interfaceTests/appertureTests-Info.plist";
+				PRODUCT_NAME = appertureTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DEA8475619644A9E003659A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/interface.app/interface";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "interface/interface-Prefix.pch";
+				INFOPLIST_FILE = "interfaceTests/appertureTests-Info.plist";
+				PRODUCT_NAME = appertureTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA8471A19644A9E003659A8 /* Build configuration list for PBXProject "apperture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA8474F19644A9E003659A8 /* Debug */,
+				DEA8475019644A9E003659A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA8475119644A9E003659A8 /* Build configuration list for PBXNativeTarget "apperture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA8475219644A9E003659A8 /* Debug */,
+				DEA8475319644A9E003659A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA8475419644A9E003659A8 /* Build configuration list for PBXNativeTarget "appertureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA8475519644A9E003659A8 /* Debug */,
+				DEA8475619644A9E003659A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA8471719644A9E003659A8 /* Project object */;
+}
